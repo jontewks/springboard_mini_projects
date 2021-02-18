@@ -1,4 +1,4 @@
-# Scrapy settings for scrapy_mini_project project
+# Scrapy settings for quotes_scraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'scrapy_mini_project'
+BOT_NAME = 'quotes_scraper'
 
-SPIDER_MODULES = ['scrapy_mini_project.spiders']
-NEWSPIDER_MODULE = 'scrapy_mini_project.spiders'
+SPIDER_MODULES = ['quotes_scraper.spiders']
+NEWSPIDER_MODULE = 'quotes_scraper.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'scrapy_mini_project (+http://www.yourdomain.com)'
+#USER_AGENT = 'quotes_scraper (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -37,34 +37,34 @@ ROBOTSTXT_OBEY = True
 #TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
-#DEFAULT_REQUEST_HEADERS = {
+# DEFAULT_REQUEST_HEADERS = {
 #   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
 #   'Accept-Language': 'en',
-#}
+# }
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    'scrapy_mini_project.middlewares.ScrapyMiniProjectSpiderMiddleware': 543,
-#}
+# SPIDER_MIDDLEWARES = {
+#    'quotes_scraper.middlewares.ScrapyMiniProjectSpiderMiddleware': 543,
+# }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'scrapy_mini_project.middlewares.ScrapyMiniProjectDownloaderMiddleware': 543,
-#}
+# DOWNLOADER_MIDDLEWARES = {
+#    'quotes_scraper.middlewares.ScrapyMiniProjectDownloaderMiddleware': 543,
+# }
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
+# EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
-#}
+# }
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'scrapy_mini_project.pipelines.ScrapyMiniProjectPipeline': 300,
-#}
+# ITEM_PIPELINES = {
+#    'quotes_scraper.pipelines.ScrapyMiniProjectPipeline': 300,
+# }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
